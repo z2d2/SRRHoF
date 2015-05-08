@@ -1,0 +1,61 @@
+body{
+    background-color: rgb( 29, 31, 33);
+}
+
+.nav li {
+    display: inline;
+    width: 100%;
+    padding-left: 50px;
+    border-left: thin solid gray;
+    
+    
+    
+}
+
+.nav a {
+    color: rgb(246,246,246);
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-left: 50px;
+}
+.nav{
+   text-align: center;
+   padding-bottom: 10px;
+   padding-right: 125px;
+}
+
+.Banner{
+    color: #fff;
+    font-family:serif; 
+}
+
+.Jumbotron {
+    background-image: url(http://antarcticsun.usap.gov/AntarcticSun/features/images4/monroe-band.jpg);
+    width: 640px;
+    height: 425px;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.side-bar-nav li{
+    padding-right: 50px;
+    vertical-align: text-top;
+    float: left;
+    
+}
+.side-bar-nav a{
+    color: rgb(246,246,246);
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.Banner{
+    text-align: center;
+    margin-bottom: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 48.5px;
+    border-bottom: solid thick;
+}
