@@ -25,47 +25,57 @@ body{
    padding-right: 125px;
 }
 
-.Banner{
+.banner{
     color: #fff;
     font-family:serif;
     margin-left: 25px;
 }
 
-.Jumbotron {
-    width: 640px;
+.jumbotron {
+    width:  640px;
     height: 425px;
-    margin-left: auto;
-    margin-right:auto;
-    margin-top: 100px;
+    margin: 100px auto 0px auto;
     border: 1px solid white;
 }
 
 .side-bar-nav li{
-    padding-right: 50px;
-    vertical-align: text-top;
-    margin-bottom: 50px;
+    margin-bottom:25px;
+    margin-right: 25px;
+    vertical-align: middle;
+    font-family: sans-serif;
+  
     
 }
 .side-bar-nav a{
-    color: rgb(246,246,246);
-    font-size: 20px;
+    color: #fff;
+    font-size: 15px;
     font-weight: bold;
     text-transform: uppercase;
     text-decoration: none;
     display: block;
-    padding-bottom: 15px;
-    border-radius: 50%;
-    width: 100%;
-    background-color: #555555; 
-   
+    width: 145px;
+    vertical-align: middle;
+    padding-bottom: 25px;
+    margin-left: -25px;
+    border-bottom: 2px solid gray;
+    padding-top: 25px;
+    
+}
+
+.side-bar-nav {
+    vertical-align: bottom;
+    
 }
 .side-bar{
     float: left;
-    margin-top: -375px;
-    
-    
+    margin-top: 105px;
+    text-decoration: none;
+    list-style: none;
+    height: 410px;
+    background-color: #555555;
+    border: 5px solid #333333;
 }
-.Banner{
+.banner{
     text-align: center;
     margin-right: 50px;
     margin-top: -55px;
@@ -84,4 +94,20 @@ body{
 .search-box{
     margin-right: 70px;
     
+}
+
+.navbox {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background: #555555;
+}
+.spotlight{
+    margin:113px 162px 0px 138px;
+    text-align: center;
+    color: white;
+    font-size:25px;
+}
+.spotlight h1{
+    font-family: 'Rock Salt', cursive;
 }
