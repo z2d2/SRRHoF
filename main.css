@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(25,26,21);
+}
+/*Menu nav Styles*/
+.heading{
+    background-color:#f8f8ff;
+    border-radius: 5px;
+    font-family: 'Alfa Slab One', cursive;
+    margin: 0 auto 0 321px;
+    position:fixed;
+    opacity: .8;
+    width: 50%;
+}
+.heading ul{
+    text-align: center;
+    
+}
+.heading li{
+    display: inline;
+    padding-left: 7.5px;
+    padding-right: 7.5px; 
+}
+
+.heading li:nth-child(1){
+    border-right: solid 5px #8b1a1a;
+}
+.heading li:nth-child(2){
+    border-right: solid 5px #8b1a1a;
+}
+
+.heading a{
+    color: #8b1a1a;
+    display: inline;
+    text-decoration: none;
+}
+
+.banner{
+    color:#8b1a1a;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/*Footer Style*/
+
+.footer{
+   background-color: #f8f8ff;
+   border-radius: 5px;
+   height:100px;
+   opacity: .8;
+}
+
+.contact-favorite-band{
+    color: #8b1a1a;
+    float: left;
+    width: 500px;
+    height: 50%;
+    
+}
+
+.contact-new-band{
+    float:left;
+}
+
+.copyright{
+    width: 910px;
+}
