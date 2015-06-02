@@ -6,10 +6,11 @@ body{
     background-color:#f8f8ff;
     border-radius: 5px;
     font-family: 'Alfa Slab One', cursive;
-    margin: 0 auto 0 321px;
+    margin: 0 auto 0 225px;
     position:fixed;
     opacity: .8;
     width: 50%;
+    
 }
 .heading ul{
     text-align: center;
@@ -33,34 +34,105 @@ body{
     display: inline;
     text-decoration: none;
 }
-
+.heading a:hover{
+    color:#838b8b;
+    
+}
 .banner{
     color:#8b1a1a;
     text-align: center;
     text-decoration: underline;
 }
 
+/*Slideshow Style; style after JS is in place*/
+.container{
+    width:75%;
+    margin-left:200px;
+    border: solid 1px white;
+}
+    
+
+
+/*Artist Spotlight Style*/
+.artist-spotlight{
+    color:#fff;
+    text-align: center;
+}
+.artist-spotlight h1{
+    font-family: 'Rock Salt', cursive;
+    font-size: 50px;
+    margin-top:0;
+    margin-bottom:15px;
+}
+.artist-spotlight h2{
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+}
+#artist-spotlight-band-name{
+    font-family: 'Frijole', cursive;
+    font-size: 80px;
+}
+.artist-text{
+    margin-left: 224px;
+    width: 917px;
+}
 /*Footer Style*/
 
 .footer{
    background-color: #f8f8ff;
    border-radius: 5px;
-   height:100px;
+   height:150px;
+   margin-top: 40px;
+   margin-left: 130px;
    opacity: .8;
+   overflow: hidden;
+   width: 1270px;
 }
 
+.contact-container{
+    text-align: center;
+    display: inline;
+    width: auto;
+}
 .contact-favorite-band{
     color: #8b1a1a;
+    font-family: 'Alfa Slab One', cursive;
     float: left;
-    width: 500px;
     height: 50%;
-    
+    margin-left: 80px;
+    text-align: center;
+    width: 500px;
 }
-
+.contact-favorite-band a{
+    color: #838b8b;
+    text-decoration: none;
+}
+.contact-favorite-band a:hover{
+    color: #8b1a1a;
+}
 .contact-new-band{
-    float:left;
+    color: #8b1a1a;
+    float: left;
+    font-family: 'Alfa Slab One', cursive;
+    height:50%;
+    text-align: center;
+    width:500px;
+}
+.contact-new-band a{
+    color: #838b8b;
+    text-decoration: none;
+}
+.contact-new-band a:hover{
+    color: #8b1a1a;
 }
 
 .copyright{
-    width: 910px;
+    color: #8b1a1a;
+    font-family: 'Alfa Slab One', cursive;
+    height: auto;
+    width: 100%;
+}
+.copyright p{
+    margin-left: 178px;
+    margin-top:120px;
 }
