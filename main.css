@@ -51,7 +51,9 @@ body{
     border: solid 1px white;
 }
     
-
+.slideshow{
+    margin-top: 127px;
+}
 
 /*Artist Spotlight Style*/
 .artist-spotlight{
@@ -75,7 +77,12 @@ body{
 .artist-text{
     margin-left: 224px;
     width: 917px;
+    font-family: sans-serif;
 }
+.artist-text p:nth-child(2){
+    margin-bottom: 100px;
+}
+
 /*Footer Style*/
 
 .footer{
