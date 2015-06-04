@@ -5,9 +5,9 @@
         
         <link rel="stylesheet" type="text/css" href="main.css">
         <link href='http://fonts.googleapis.com/css?family=Alfa+Slab+One' rel='stylesheet' type='text/css'>
-        <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Rock+Salt' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Frijole' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Walter+Turncoat' rel='stylesheet' type='text/css'>
         
         <meta charset= "utf-8"/>
     </head>
@@ -15,9 +15,9 @@
     <!-- Start of header section -->
     <body>
         <header>
-            <div class="container">
+            <div class="container" id=top-page>
                 <div class ="heading">   
-                    <h1 class="banner"><a href="#top-of-page">Springfield Rock & Roll Hall of Fame</a></h1>
+                    <h1 class="banner"><a href="#top-page">Springfield Rock & Roll Hall of Fame</a></h1>
                         <nav>
                             <ul>
                                 <li><a href="#artist-spotlight-article">Local Artist Spotlight</a></li>
@@ -31,7 +31,7 @@
         <!-- Start of Slideshow-->
         <main>
         <div class="container" id="slideshow-container">
-            <div class="slideshow" id="top-of-page">
+            <div class="slideshow">
             
                 <img src="http://antarcticsun.usap.gov/AntarcticSun/features/images4/monroe-band.jpg"
                         width="640" height="425" alt="#">
@@ -93,21 +93,21 @@
         
     <!--Making Some Noise-->
     <article>       
-    <div class="making-some-noise">
+    <div class="container">
+        <div class="making-some-noise">
+        
+            <h1 id="making-noise">Making Some Noise</h1>
                         
-        <h1 id="making-noise">Making Some Noise</h1>
-                        
-        <h2 id="make-some-noise-secondary-heading">See the Up-and-Coming Artist We Think You Should Know About</h2>
+            <h2>See the Up-and-Coming Artist We Think You Should Know About</h2>
                                  
-        <div class="up-and-coming-band-picture">
-            <img src="http://limitedrun.com.s3.amazonaws.com/images/1104055/Modern_Baseball_Promo.jpg"
-                  width="500" height="357" alt="#">
-        </div>
-    </div>
+            <div class="up-and-coming-band-picture">
+                <img src="http://limitedrun.com.s3.amazonaws.com/images/1104055/Modern_Baseball_Promo.jpg"
+                     width="500" height="357" alt="#">
+            </div>
     
     <div class="making-some-noise-artist-text">
                                         
-        <h2 id="making-noise-band-name">BAND NAME HERE</h2>
+        <h2 id="making-noise-band">Modern Baseball</h2>
                                     
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis felis justo, accumsan sed sapien ac, scelerisque luctus lectus. Nam felis est, venenatis vel efficitur sed, malesuada sit amet augue.
                 Nunc id tempor metus. Suspendisse at justo purus. Sed porttitor tincidunt libero, vel mattis nulla pulvinar ut. Suspendisse venenatis eu nisi quis lobortis. Aenean congue sapien id aliquam finibus.</p>
@@ -115,13 +115,17 @@
             <p>Integer ac lectus mauris. Morbi volutpat tincidunt finibus. Praesent id dictum risus. Morbi eros arcu, mollis nec justo a, sollicitudin molestie ipsum. Aliquam rutrum vitae justo vitae dapibus.
                Etiam iaculis pulvinar velit. In ac egestas justo. Aenean bibendum turpis non tortor dapibus, non laoreet sapien elementum. Sed sed ultricies lorem. Vestibulum vitae ipsum vestibulum, iaculis turpis vitae,
                laoreet dolor. Duis aliquam imperdiet elit, quis tristique tortor pulvinar ut.</p>
-        </div>      
+    </div>
+        </div>
+    </div>
     </article>
     
     <!--Hall of Fame-->
     <article>
+    
+    <div class="container">  
+        <div class="favorite" id="start-of-favorite">
         
-    <div class="favorite" id="start-of-favorite">
         <h1>Monthly Hall of Fame</h1>
             
         <h2>See the top three bands chosen by YOU to recieve Springfield's highest musical honor</h2>
@@ -164,12 +168,13 @@
                         </td>
                     </tr>
                 </table>
+            </div>
             </article>
         </main>
         <!-- Footer-->
         <footer>
+        <div class="container">
             <div class="footer">
-                <div class="contact-container">
                     <div class="contact-favorite-band">
                         <p>Don't see your favorite band? Send us an email!</p>   
                         <a href="mailto:example@srrhof.com" title="Email us">example@srrhof.com</a>
@@ -178,11 +183,12 @@
                         <p>Form a new band? Let us spread the word!</p>
                         <a href="mailto:example@srrhof.com" title="Email us">example@srrhof.com</a>
                     </div>
-                </div>
+                
                 <div class="copyright"> 
                     <p>Springfield Rock & Roll Holl of Fame is a registerd trademark in the United States and/or other contries.</p>
                 </div>
             </div>
+        </div>
         </footer>
     </body>
 </html>
