@@ -5,8 +5,10 @@ body{
 .container{
     width:75%;
     margin-left:200px;
+    max-width: 1211.250px;
+    
     /*to see the container*/
-    border: solid 1px white;
+    
     
 }
 /*Menu nav Styles*/
@@ -20,6 +22,7 @@ body{
     opacity: 1;
     /*Shrink to 50% on scroll.*/
     width: 74.2%;
+    max-width: 1104.808px;
     
 }
 .heading ul{
@@ -57,7 +60,8 @@ body{
 /*Slideshow Style; style after JS is in place*/
 
 .slideshow{
-    margin-top: 127px;
+    
+    text-align: center;
 }
 
 /*Artist Spotlight Style*/
@@ -122,8 +126,10 @@ body{
 .footer{
    background-color: #f8f8ff;
    border-radius: 5px;
-   height:150px;
-   margin-top: 40px;
+   height:124.875px;
+   margin-top: 40px; 
+   max-width: 1104.808px;
+   opacity: .8;
    overflow: hidden;
    width: 100%;
 }
@@ -135,14 +141,15 @@ body{
 }
 .contact-favorite-band{
     color: #8b1a1a;
-    font-family: 'Alfa Slab One', cursive;
     float: left;
+    font-family: 'Alfa Slab One', cursive;
+    font-size:13px;
     height: 50%;
-    margin-left: 80px;
-    padding-right:145px;
+    margin: 15px 0 0 80px;
+    padding-right:35px;
     text-align: center;
     width: 34%;
-    border: solid 1px black;
+    
 }
 .contact-favorite-band a{
     color: #838b8b;
@@ -155,11 +162,12 @@ body{
     color: #8b1a1a;
     float: left;
     font-family: 'Alfa Slab One', cursive;
-    height:50%;
+    font-size:13px;
+    margin-top: 15px;
     padding-left: 84px;
     text-align: center;
     width:34%;
-    border: solid 1px black;
+   
 }
 .contact-new-band a{
     color: #838b8b;
@@ -170,14 +178,13 @@ body{
 }
 
 .copyright{
-    float: left;
     color: #8b1a1a;
+    float: left;
+    font-size:10px;
     font-family: sans-serif;
     height: auto;
-    padding-top:24px;
-    width: 74%;
-    border: solid 1px black;
-}
-.copyright p{
+    margin-left: 5px;
+    padding-top:12px;
+    width: 734px;
     
 }
