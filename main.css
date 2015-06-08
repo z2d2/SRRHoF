@@ -120,7 +120,24 @@ body{
 #making-noise-band{
     font-family: 'Walter Turncoat', cursive;
     font-size: 80px;
-    }
+}
+
+/*Hall of Fame Style*/
+
+.favorite h1{
+    color: #fff;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    font-size: 50px;
+}
+
+.favorite h2{
+    color:#fff;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 24px;
+}
+    
 /*Footer Style*/
 
 .footer{
