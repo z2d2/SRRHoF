@@ -1,143 +1,145 @@
-body{
+
+body {
     background-color: rgb(25,26,21);
 }
+h1 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 50px;
+    margin-top:183px;
+    margin-bottom:15px;
+    color:#fff;
+    text-align: center;
+    
+}
+h2 {
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    margin-bottom: 163px;
+    color:#fff;
+    text-align: center;
+    }
+h3 {
+    font-family: 'Frijole', cursive;
+    font-size: 80px;
+    margin-bottom: 20px;
+    }
+
 /*container style*/
-.container{
+.container {
     width:75%;
     margin-left:200px;
-    max-width: 1211.250px;
+    max-width: 1104.808px;
+    border: solid 1px white;
     
     /*to see the container*/
     
     
 }
 /*Menu nav Styles*/
-.heading{
+.heading {
     background-color:#f8f8ff;
     border-radius: 5px;
-    font-family: 'Alfa Slab One', cursive;
     margin-right: auto;
+    max-width: 1104.808px;
     position:fixed;
     /*opacity to .8 on scroll*/
     opacity: 1;
     /*Shrink to 50% on scroll.*/
-    width: 74.2%;
-    max-width: 1104.808px;
-    
+    width: 74.2%;  
 }
-.heading ul{
+
+.heading ul {
     text-align: center;
     
 }
-.heading li{
+.heading li {
     display: inline;
+    font-family: 'Alfa Slab One', cursive;
     padding-left: 7.5px;
     padding-right: 7.5px; 
 }
 
-.heading li:nth-child(1){
+.heading li:nth-child(1) {
     border-right: solid 5px #8b1a1a;
 }
-.heading li:nth-child(2){
+.heading li:nth-child(2) {
     border-right: solid 5px #8b1a1a;
 }
 
-.heading a{
+.heading a {
     color: #8b1a1a;
     display: inline;
     text-decoration: none;
 }
-.heading a:hover{
+.heading a:hover {
     color:#838b8b;
     
 }
-.banner{
+.banner {
     color:#8b1a1a;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 35px;
+    margin-top:21.440px;
     text-align: center;
     text-decoration: underline;
 }
 
 /*Slideshow Style; style after JS is in place*/
 
-.slideshow{
-    
+.slideshow {
     text-align: center;
 }
 
 /*Artist Spotlight Style*/
-.artist-spotlight{
+.background{
+    background-color: #7f0000;
+    height: 1800px;
+}
+    
+.artist-spotlight {
     color:#fff;
     text-align: center;
 }
-.artist-spotlight h1{
-    font-family: 'Rock Salt', cursive;
-    font-size: 50px;
-    margin-top:0;
-    margin-bottom:15px;
-    
-}
-.artist-spotlight h2{
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 25px;
-}
-#artist-spotlight-band-name{
-    font-family: 'Frijole', cursive;
-    font-size: 80px;
-}
-.artist-text{
+.artist-text {
     font-family: sans-serif;
     font-size: 15px;
     margin-left: 130px;
     width:80%;
 }
-.artist-text p:nth-child(3){
+.artist-text p:nth-child(3) {
     padding-bottom: 66.4px;
 }
-
+#artist-spotlight-band-name {
+font-family: 'Frijole', cursive;
+}
 /*Making Some Noise style*/
-
-.making-some-noise{
+.background-making-some-noise {
+    background-color: #7f5200;
+    height: 1400px;
+}
+.making-some-noise {
     color:#fff;
     text-align: center;
 }
-.making-some-noise h1{
-    font-family: 'Rock Salt', cursive;
-    font-size: 50px;
-    margin-top:0;
-    margin-bottom:15px;
-}
-.making-some-noise h2{
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 25px;
-}
-.making-some-noise-artist-text{
+.making-some-noise-artist-text {
     font-family: sans-serif;
     font-size: 15px;
     margin-left: 130px;
-    width:80%;
-    
+    width:80%;  
 }
-#making-noise-band{
+#making-noise-band {
     font-family: 'Walter Turncoat', cursive;
-    font-size: 80px;
 }
-
 /*Hall of Fame Style*/
-
-.favorite h1{
-    color: #fff;
-    text-align: center;
-    font-family: 'Rock Salt', cursive;
-    font-size: 50px;
+.hof-background {
+    background-color: #000066 ;
 }
-
-.favorite h2{
-    color:#fff;
-    text-align: center;
-    font-family: 'Alfa Slab One', cursive;
-    font-size: 24px;
+#hall-of-fame td:nth-child(2){
+    padding-left: 10px;
 }
-    
+#hall-of-fame td:nth-child(3){
+    padding-left: 10px;
+}
 /*Footer Style*/
 
 .footer{
