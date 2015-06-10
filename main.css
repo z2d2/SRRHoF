@@ -1,42 +1,58 @@
-
+/*Reuseable styles*/
 body {
-    background-color: rgb(25,26,21);
+    background-color: #333333;
 }
 h1 {
     font-family: 'Rock Salt', cursive;
     font-size: 50px;
-    margin-top:183px;
     margin-bottom:15px;
     color:#fff;
     text-align: center;
-    
 }
+
 h2 {
     font-family: 'Alfa Slab One', cursive;
     font-size: 25px;
-    margin-bottom: 163px;
+    margin-bottom: 145px;
     color:#fff;
     text-align: center;
-    }
+}
+    
 h3 {
     font-family: 'Frijole', cursive;
     font-size: 80px;
     margin-bottom: 20px;
-    }
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    display: inline;
+    font-family: 'Alfa Slab One', cursive;
+    padding-left: 7.5px;
+    padding-right: 7.5px;
+}
+
+
+
+/*Background positioning style */
+.background{
+    height: 1500px;
+    padding-top: 200px;
+}
 
 /*container style*/
+
 .container {
-    width:75%;
-    margin-left:200px;
+    width: 75%;
+    margin-left: 200px;
     max-width: 1104.808px;
-    border: solid 1px white;
-    
-    /*to see the container*/
-    
-    
 }
+
 /*Menu nav Styles*/
-.heading {
+header {
     background-color:#f8f8ff;
     border-radius: 5px;
     margin-right: auto;
@@ -45,158 +61,177 @@ h3 {
     /*opacity to .8 on scroll*/
     opacity: 1;
     /*Shrink to 50% on scroll.*/
-    width: 74.2%;  
+    width: 74.2%;
 }
 
-.heading ul {
-    text-align: center;
-    
-}
-.heading li {
-    display: inline;
-    font-family: 'Alfa Slab One', cursive;
-    padding-left: 7.5px;
-    padding-right: 7.5px; 
-}
-
-.heading li:nth-child(1) {
-    border-right: solid 5px #8b1a1a;
-}
-.heading li:nth-child(2) {
+header li:nth-child(1),
+       li:nth-child(2) {
     border-right: solid 5px #8b1a1a;
 }
 
-.heading a {
+header a {
     color: #8b1a1a;
     display: inline;
     text-decoration: none;
 }
-.heading a:hover {
-    color:#838b8b;
+
+header a:hover {
+    color: #838b8b;
     
 }
 .banner {
-    color:#8b1a1a;
+    color: #8b1a1a;
     font-family: 'Alfa Slab One', cursive;
     font-size: 35px;
-    margin-top:21.440px;
+    margin-top: 21.440px;
     text-align: center;
     text-decoration: underline;
 }
 
-/*Slideshow Style; style after JS is in place*/
+/*Slideshow Style*/
 
 .slideshow {
+    border: solid 25px white;
+    border-bottom: solid 215px white;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    
+    
+}
+
+#slideshow-background {
+    background-color: #0e2f44;
+    height: 1000px;
 }
 
 /*Artist Spotlight Style*/
-.background{
-    background-color: #7f0000;
-    height: 1800px;
-}
+
+#artist-background {
+    background-color: #3a476a;
+    border-top: solid 10px white;
+    height: 2200px;
     
+}
+   
 .artist-spotlight {
-    color:#fff;
+    color: #fff;
     text-align: center;
 }
+
 .artist-text {
     font-family: sans-serif;
     font-size: 15px;
     margin-left: 130px;
-    width:80%;
+    width: 80%;
 }
+
 .artist-text p:nth-child(3) {
     padding-bottom: 66.4px;
 }
+
 #artist-spotlight-band-name {
 font-family: 'Frijole', cursive;
 }
+
 /*Making Some Noise style*/
-.background-making-some-noise {
-    background-color: #7f5200;
-    height: 1400px;
+
+#background-making-some-noise {
+    background-color: #660066;
+    border-top: solid 10px white;
+    
 }
+
 .making-some-noise {
-    color:#fff;
+    color: #fff;
     text-align: center;
 }
+
 .making-some-noise-artist-text {
     font-family: sans-serif;
     font-size: 15px;
     margin-left: 130px;
-    width:80%;  
+    width: 80%;  
 }
+
 #making-noise-band {
     font-family: 'Walter Turncoat', cursive;
 }
+
 /*Hall of Fame Style*/
-.hof-background {
-    background-color: #000066 ;
+
+#hof-background {
+    background-color: #003366;
+    border-top: solid 10px white;
+    height: 1100px;
 }
-#hall-of-fame td:nth-child(2){
-    padding-left: 10px;
+
+#hall-of-fame-pictures {
+    text-align: center;
 }
-#hall-of-fame td:nth-child(3){
-    padding-left: 10px;
-}
+
 /*Footer Style*/
 
-.footer{
+.footer {
    background-color: #f8f8ff;
    border-radius: 5px;
-   height:124.875px;
-   margin-top: 40px; 
+   height: 124.875px;
    max-width: 1104.808px;
    opacity: .8;
    overflow: hidden;
    width: 100%;
 }
 
-.contact-container{
+.contact-container {
     text-align: center;
     display: inline;
     width: auto;
 }
-.contact-favorite-band{
+
+.contact-favorite-band {
     color: #8b1a1a;
     float: left;
     font-family: 'Alfa Slab One', cursive;
-    font-size:13px;
+    font-size: 13px;
     height: 50%;
     margin: 15px 0 0 80px;
-    padding-right:35px;
+    padding-right: 35px;
     text-align: center;
     width: 34%;
     
 }
-.contact-favorite-band a{
+
+.contact-favorite-band a {
     color: #838b8b;
     text-decoration: none;
 }
-.contact-favorite-band a:hover{
-    color: #8b1a1a;
-}
-.contact-new-band{
-    color: #8b1a1a;
-    float: left;
-    font-family: 'Alfa Slab One', cursive;
-    font-size:13px;
-    margin-top: 15px;
-    padding-left: 84px;
-    text-align: center;
-    width:34%;
-   
-}
-.contact-new-band a{
-    color: #838b8b;
-    text-decoration: none;
-}
-.contact-new-band a:hover{
+
+.contact-favorite-band a:hover {
     color: #8b1a1a;
 }
 
-.copyright{
+.contact-new-band {
+    color: #8b1a1a;
+    float: left;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 13px;
+    margin-top: 15px;
+    padding-left: 84px;
+    text-align: center;
+    width: 34%;
+   
+}
+
+.contact-new-band a {
+    color: #838b8b;
+    text-decoration: none;
+}
+
+.contact-new-band a:hover {
+    color: #8b1a1a;
+}
+
+.copyright {
     color: #8b1a1a;
     float: left;
     font-size:10px;
@@ -205,5 +240,4 @@ font-family: 'Frijole', cursive;
     margin-left: 5px;
     padding-top:12px;
     width: 734px;
-    
 }
