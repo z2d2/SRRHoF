@@ -1,0 +1,113 @@
+
+body{
+    background-color: rgb( 29, 31, 33);
+}
+
+.nav li {
+    display: inline;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: -50px;
+    font-family: sans-serif;
+     
+}
+
+.nav a {
+    color: rgb(246,246,246);
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: -50px;
+}
+.nav{
+    text-align: right;
+   padding-bottom: 10px;
+   padding-right: 125px;
+}
+
+
+.slideshow {
+    width:  640px;
+    height: 425px;
+    margin: 100px auto 0px auto;
+    border: 1px solid white;
+}
+    
+
+.side-bar-nav a{
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    width: 145px;
+    vertical-align: middle;
+    padding-bottom: 25px;
+    margin-left: -25px;
+    border-bottom: 2px solid gray;
+    padding-top: 29px;
+    
+}
+
+.banner{
+    text-align: center;
+    margin-right: 50px;
+    margin-top: -55px;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 2em;
+    width: 425px;
+    color: #fff;
+    font-family:serif;
+    margin-left: 25px;
+}
+
+.title {
+    border: 5px solid #333333;
+    background-color: #555555;
+    width: 100%;
+    height: 125px; 
+}
+
+.search-box{
+    margin-right: 70px;
+    
+}
+
+.navbox {
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    background: #555555;
+}
+.spotlight{
+    margin:113px 162px 0px 138px;
+    text-align: center;
+    color: white;
+    font-size:25px;
+}
+.spotlight h1{
+    font-family: 'Rock Salt', cursive;
+}
+
+.artist-text {
+    color: white;
+    border: 1px solid white;
+    width: 65%;
+    margin: 15px auto 0px auto;
+    position: inherit;
+    }
+.artist-text h1{
+    margin-left: 261px;
+    margin-right: auto;
+}
+.band-video{
+    margin-left: 141px;
+    margin-right: auto;
+    
+    
+    
+    #spotlight-container > div > div.artist-text > p:nth-child(3)
+    
+    

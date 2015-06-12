@@ -58,12 +58,22 @@ header {
     margin-right: auto;
     max-width: 1104.808px;
     position:fixed;
-    /*opacity to .8 on scroll*/
     opacity: 1;
-    /*Shrink to 50% on scroll.*/
     width: 74.2%;
+    transition: all, 0.5s;
 }
-
+/*Header scroll class for JS timer*/
+header.scroll {
+    background-color:#f8f8ff;
+    border-radius: 5px;
+    margin-right: auto;
+    margin-left: 183px;
+    max-width: 744.5px;
+    position:fixed;
+    opacity: .8;
+    width: 50%;
+    transition: all, 0.5s;
+}
 header li:nth-child(1),
        li:nth-child(2) {
     border-right: solid 5px #8b1a1a;
@@ -76,9 +86,9 @@ header a {
 }
 
 header a:hover {
-    color: #838b8b;
-    
+    color: #838b8b;  
 }
+
 .banner {
     color: #8b1a1a;
     font-family: 'Alfa Slab One', cursive;
@@ -95,9 +105,7 @@ header a:hover {
     border-bottom: solid 215px white;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
-    
-    
+    text-align: center; 
 }
 
 #slideshow-background {
