@@ -1,6 +1,8 @@
 /*Reuseable styles*/
 body {
     background-color: #333333;
+    height: 100%;
+    width: 100%;
 }
 h1 {
     font-family: 'Rock Salt', cursive;
@@ -174,8 +176,55 @@ font-family: 'Frijole', cursive;
     height: 1100px;
 }
 
-#hall-of-fame-pictures {
+.hof-image-container {
+    border: solid 1px white;
+    box-sizing: border-box;
+    display: block;
+    height: 50%;
+    position: relative;
     text-align: center;
+    width: 100%;
+}
+
+.hof-image {
+    display: inline-block;
+    padding: 5px 10px 0 10px;
+    position:absolute;
+}
+
+.hof-image img:nth-child(1){
+    position: absolute;
+    top:10px;
+    left:10px;
+}
+
+.hof-image img:nth-child(2){
+    position: absolute;
+    top:10px;
+    left:20px;
+}
+}
+
+.color-square {
+    position: absolute;
+    left: 0;
+    background-color: red;
+    opacity: .5;
+    display: inline-block;
+    padding: 5px 10px 0 10px;
+    vertical-align: top;
+    transition: 1s ease;
+}                                                    
+
+.color-square:nth-child(3) {
+    
+}
+
+.color-square h3 {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    font-family: sans-serif;
 }
 
 /*Footer Style*/
@@ -249,3 +298,5 @@ font-family: 'Frijole', cursive;
     padding-top:12px;
     width: 734px;
 }
+
+
