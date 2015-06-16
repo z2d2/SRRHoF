@@ -4,7 +4,7 @@ $(document).ready(function (){
     });
 });
 
-//timer for scroll animation
+//timer for scroll animatio
 var timer = setTimeout (normal);
 
 function resetTimer() {
@@ -23,7 +23,15 @@ normal()
 
 
 
-
+$('.hof-image').mouseover(function(){
+    $('.color-square').stop().animate({
+        height: 250    
+    }, 200);                        
+}).mouseout(function(){
+    $('.color-square').stop().animate({
+        height: 0 
+    }, 200)    
+});
 
 
 
