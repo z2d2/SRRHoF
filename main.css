@@ -69,7 +69,7 @@ header.scroll {
     background-color:#f8f8ff;
     border-radius: 5px;
     margin-right: auto;
-    margin-left: 183px;
+    margin-left: 175px;
     max-width: 744.5px;
     position:fixed;
     opacity: .8;
@@ -173,11 +173,10 @@ font-family: 'Frijole', cursive;
 #hof-background {
     background-color: #003366;
     border-top: solid 10px white;
-    height: 1100px;
+    height: 1000px;
 }
 
 .hof-image-container {
-    border: solid 1px white;
     box-sizing: border-box;
     height: 55%;
     position: relative;
@@ -188,33 +187,38 @@ font-family: 'Frijole', cursive;
 .hof-image {
     top: 10px;
     display: inline-block;
+    padding-right: 10px;
     position: relative;
     margin-bottom: 10px;
 }
  
+ 
 .color-square {
-    background-color: red;
+    background: rgba(211 ,211 ,211, .5);
     display: inline-block;
-    height: 250px;
+    height: 0px;
     left: 0px;
-    opacity: .5;
+    margin-right: 5px;
     position: absolute;
     top: 0px;
-    transition: 1s ease;
+    transition: all .5s;
+    overflow: hidden;
     vertical-align: top;
     width: 340px;
+}
 
-}                                                 
+.hof-image:hover .color-square,
+.color-square:hover {
+    background: rgba(211, 211, 211, 0.5);
+    height: 250px;
+}
 
 .color-square h3 {
     color: white;
-    font-size: 25px;
-    text-align: center;
     font-family: sans-serif;
-}
-.color-square a{
-    text-decoration: none;
-    opacity: 1;
+    font-size: 30px;
+    margin-top: 205px;
+    text-align: center;
 }
 
 /*Footer Style*/

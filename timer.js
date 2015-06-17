@@ -18,21 +18,12 @@ function normal(){
     setTimeout( normal, 2000); //ends the timer after 2000 ms 
 }
 
+
 $(window).scroll(resetTimer)
-normal()             
+normal();             
 
 
-
-$('.hof-image').mouseover(function(){
-    $('.color-square').stop().animate({
-        height: 250    
-    }, 200);                        
-}).mouseout(function(){
-    $('.color-square').stop().animate({
-        height: 0 
-    }, 200)    
-});
-
+    
 
 
 
