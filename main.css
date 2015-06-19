@@ -5,25 +5,27 @@ body {
     width: 100%;
 }
 h1 {
+    color:#fff;
     font-family: 'Rock Salt', cursive;
     font-size: 50px;
     margin-bottom:15px;
-    color:#fff;
     text-align: center;
+    transition: all .5s;
 }
 
 h2 {
+    color:#fff;
     font-family: 'Alfa Slab One', cursive;
     font-size: 25px;
     margin-bottom: 145px;
-    color:#fff;
+    padding: 0 15px 0 15px;
     text-align: center;
 }
     
 h3 {
     font-family: 'Frijole', cursive;
     font-size: 80px;
-    margin-bottom: 20px;
+    margin: 0 auto 20px auto;
 }
 
 ul {
@@ -33,11 +35,24 @@ ul {
 li {
     display: inline;
     font-family: 'Alfa Slab One', cursive;
-    padding-left: 7.5px;
-    padding-right: 7.5px;
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    transition: all .5s;
 }
 
+p {
+    width: 100%;
+}
 
+/* paragraph styling*/
+.artist-text {
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-left: 90px;
+    margin-right: auto;
+    width: 80%;
+}
 
 /*Background positioning style */
 .background{
@@ -48,9 +63,11 @@ li {
 /*container style*/
 
 .container {
-    width: 75%;
-    margin-left: 200px;
+    margin: 0 200px 0 150px;
     max-width: 1104.808px;
+    padding: 0 15px 0 15px;
+    position: static;
+    width: 75%;
 }
 
 /*Menu nav Styles*/
@@ -61,26 +78,37 @@ header {
     max-width: 1104.808px;
     position:fixed;
     opacity: 1;
-    width: 74.2%;
     transition: all, 0.5s;
+    width: 75%;
 }
 /*Header scroll class for JS timer*/
 header.scroll {
     background-color:#f8f8ff;
     border-radius: 5px;
     margin-right: auto;
-    margin-left: 175px;
-    max-width: 744.5px;
+    margin-left: 120px;
+    max-width: 865px;
     position:fixed;
     opacity: .8;
-    width: 50%;
     transition: all, 0.5s;
+    width: 55%;
 }
+
+header.scroll h1 {
+    font-size: 25px;
+    transition: all .5s
+    }
+
+header.scroll li {
+    font-size: 15px;
+    transition:all .5s
+}
+
 header li:nth-child(1),
        li:nth-child(2) {
     border-right: solid 5px #8b1a1a;
 }
-
+   
 header a {
     color: #8b1a1a;
     display: inline;
@@ -91,7 +119,7 @@ header a:hover {
     color: #838b8b;  
 }
 
-.banner {
+.content {
     color: #8b1a1a;
     font-family: 'Alfa Slab One', cursive;
     font-size: 35px;
@@ -107,6 +135,7 @@ header a:hover {
     border-bottom: solid 215px white;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
     text-align: center; 
 }
 
@@ -129,13 +158,6 @@ header a:hover {
     text-align: center;
 }
 
-.artist-text {
-    font-family: sans-serif;
-    font-size: 15px;
-    margin-left: 130px;
-    width: 80%;
-}
-
 .artist-text p:nth-child(3) {
     padding-bottom: 66.4px;
 }
@@ -149,19 +171,11 @@ font-family: 'Frijole', cursive;
 #background-making-some-noise {
     background-color: #660066;
     border-top: solid 10px white;
-    
 }
 
 .making-some-noise {
     color: #fff;
     text-align: center;
-}
-
-.making-some-noise-artist-text {
-    font-family: sans-serif;
-    font-size: 15px;
-    margin-left: 130px;
-    width: 80%;  
 }
 
 #making-noise-band {
