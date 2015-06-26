@@ -1,9 +1,3 @@
-$(document).ready(function (){
-    $(window).scroll(function() {
-    console.log( window.scrollY );
-    });
-});
-
 //timer for scroll animatio
 var timer = setTimeout (normal);
 
@@ -22,11 +16,15 @@ function normal(){
 $(window).scroll(resetTimer)
 normal();             
 
-$(document).ready(function() {
-    $('.slideshow').cycle({
-		fx: 'fade' 
-	});
+$(document).ready(function (){
+    $(window).scroll(function() {
+    console.log( window.scrollY );
+    });
 });
+$('.slideshow').cycle({
+    fx: 'fade' 
+});
+
 
 //functions for clicking heading buttons
 $(function() {
